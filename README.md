@@ -21,8 +21,8 @@
 screenshot
 
 <div align="center">
-<img width="1059" alt="image" src="https://github.com/bloodmooncode/MorningGlory/assets/57327735/1f21c5f5-c7c5-4fe9-9acc-65093447b4ed">
 <img width="728" alt="image" src="https://github.com/bloodmooncode/MorningGlory/assets/57327735/f56ec1dc-fa47-4d44-9793-fd58b1883bec">
+<img width="1059" alt="image" src="https://github.com/bloodmooncode/MorningGlory/assets/57327735/1f21c5f5-c7c5-4fe9-9acc-65093447b4ed">
 <img width="1070" alt="image" src="https://github.com/bloodmooncode/MorningGlory/assets/57327735/2bac41e5-7f15-4921-b812-4625b1e9c7ba">
 
 </div>
