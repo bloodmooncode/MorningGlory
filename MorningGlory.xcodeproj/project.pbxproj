@@ -30,49 +30,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-=======
-				B9E7DD7333D80C095F648C91 /* Pods_MorningGlory.framework in Frameworks */,
->>>>>>> origin/feat/workspace
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-<<<<<<< HEAD
 		964316F62B45607400A95C05 = {
 			isa = PBXGroup;
 			children = (
 				964317012B45607400A95C05 /* MorningGlory */,
 				964317002B45607400A95C05 /* Products */,
-=======
-		40750350B3D6A679A3E51CBB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CD55DEA5F44DF34B2A271F2A /* Pods_MorningGlory.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6E9200E5305A6BCADFAF7FF8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				1144246A12B0725DD1C7A377 /* Pods-MorningGlory.debug.xcconfig */,
-				0369EBD381F13F38803D31CA /* Pods-MorningGlory.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
-		964316F62B45607400A95C05 = {
-			isa = PBXGroup;
-			children = (
-				964318032B4561A800A95C05 /* GoogleService-Info.plist */,
-				964317012B45607400A95C05 /* MorningGlory */,
-				964317002B45607400A95C05 /* Products */,
-				6E9200E5305A6BCADFAF7FF8 /* Pods */,
-				40750350B3D6A679A3E51CBB /* Frameworks */,
->>>>>>> origin/feat/workspace
 			);
 			sourceTree = "<group>";
 		};
@@ -87,23 +55,11 @@
 		964317012B45607400A95C05 /* MorningGlory */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				964317022B45607400A95C05 /* MorningGloryApp.swift */,
 				964317042B45607400A95C05 /* ContentView.swift */,
 				964317062B45607500A95C05 /* Assets.xcassets */,
 				9643170B2B45607500A95C05 /* Persistence.swift */,
 				9643170D2B45607500A95C05 /* MorningGlory.xcdatamodeld */,
-=======
-				964318002B45611400A95C05 /* App */,
-				964317152B45609200A95C05 /* Community */,
-				9643177A2B45609700A95C05 /* Guide */,
-				964317532B45609400A95C05 /* Launch */,
-				964317742B45609600A95C05 /* Lottie */,
-				964317402B45609300A95C05 /* Menu */,
-				9643175C2B45609500A95C05 /* Mine */,
-				9643177F2B45609800A95C05 /* Training */,
-				964317062B45607500A95C05 /* Assets.xcassets */,
->>>>>>> origin/feat/workspace
 				964317082B45607500A95C05 /* Preview Content */,
 			);
 			path = MorningGlory;
@@ -117,218 +73,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-<<<<<<< HEAD
-=======
-		964317152B45609200A95C05 /* Community */ = {
-			isa = PBXGroup;
-			children = (
-				964317162B45609200A95C05 /* CommunityCity */,
-				9643171C2B45609200A95C05 /* CommunityController */,
-				964317212B45609200A95C05 /* CommunityHot */,
-				964317282B45609200A95C05 /* CommunityDynamic */,
-				964317392B45609200A95C05 /* CommunityActivity */,
-			);
-			path = Community;
-			sourceTree = "<group>";
-		};
-		964317162B45609200A95C05 /* CommunityCity */ = {
-			isa = PBXGroup;
-			children = (
-				964317172B45609200A95C05 /* MapView.swift */,
-				964317182B45609200A95C05 /* Place.swift */,
-				964317192B45609200A95C05 /* CommunityCityView.swift */,
-				9643171A2B45609200A95C05 /* CitySearchView.swift */,
-				9643171B2B45609200A95C05 /* MapViewModel.swift */,
-			);
-			path = CommunityCity;
-			sourceTree = "<group>";
-		};
-		9643171C2B45609200A95C05 /* CommunityController */ = {
-			isa = PBXGroup;
-			children = (
-				9643171D2B45609200A95C05 /* CommunityMenuTopView.swift */,
-				9643171E2B45609200A95C05 /* OriginalButtonStyle.swift */,
-				9643171F2B45609200A95C05 /* CommunityView.swift */,
-				964317202B45609200A95C05 /* HScrollViewController.swift */,
-			);
-			path = CommunityController;
-			sourceTree = "<group>";
-		};
-		964317212B45609200A95C05 /* CommunityHot */ = {
-			isa = PBXGroup;
-			children = (
-				964317222B45609200A95C05 /* PhotoView.swift */,
-				964317232B45609200A95C05 /* TokenConfig.xcconfig */,
-				964317242B45609200A95C05 /* CommunitySearchBar.swift */,
-				964317252B45609200A95C05 /* Helper.swift */,
-				964317262B45609200A95C05 /* CommunityBelowView.swift */,
-				964317272B45609200A95C05 /* CommunityScrollView.swift */,
-			);
-			path = CommunityHot;
-			sourceTree = "<group>";
-		};
-		964317282B45609200A95C05 /* CommunityDynamic */ = {
-			isa = PBXGroup;
-			children = (
-				964317292B45609200A95C05 /* PostVIPBadge.swift */,
-				9643172A2B45609200A95C05 /* PostListView.swift */,
-				9643172B2B45609200A95C05 /* PostDetailView.swift */,
-				9643172C2B45609200A95C05 /* CommentInputView.swift */,
-				9643172D2B45609200A95C05 /* CommunityMenuContent.swift */,
-				9643172E2B45609200A95C05 /* NetworkManager.swift */,
-				9643172F2B45609200A95C05 /* KeyboardResponder.swift */,
-				964317302B45609200A95C05 /* UserData.swift */,
-				964317312B45609200A95C05 /* CommuityMenuView.swift */,
-				964317322B45609200A95C05 /* PostCellToolbarButton.swift */,
-				964317332B45609200A95C05 /* Post.swift */,
-				964317342B45609200A95C05 /* PostImageCell.swift */,
-				964317352B45609200A95C05 /* CommentTextView.swift */,
-				964317362B45609200A95C05 /* NetworkAPI.swift */,
-				964317372B45609200A95C05 /* PostCell.swift */,
-				964317382B45609200A95C05 /* CommunityNavigationBar.swift */,
-			);
-			path = CommunityDynamic;
-			sourceTree = "<group>";
-		};
-		964317392B45609200A95C05 /* CommunityActivity */ = {
-			isa = PBXGroup;
-			children = (
-				9643173A2B45609200A95C05 /* CommunityParticipateView.swift */,
-				9643173B2B45609200A95C05 /* CommunityParticipateScrollView.swift */,
-				9643173C2B45609300A95C05 /* ActivityNavigationBar.swift */,
-				9643173D2B45609300A95C05 /* CommunityImageSearch.swift */,
-				9643173E2B45609300A95C05 /* CommunityHotView.swift */,
-				9643173F2B45609300A95C05 /* CommunityAttentionView.swift */,
-			);
-			path = CommunityActivity;
-			sourceTree = "<group>";
-		};
-		964317402B45609300A95C05 /* Menu */ = {
-			isa = PBXGroup;
-			children = (
-				964317412B45609300A95C05 /* TranslationHistory.swift */,
-				964317422B45609300A95C05 /* UsualView.swift */,
-				964317432B45609300A95C05 /* LongDistanceTranslationView.swift */,
-				964317442B45609300A95C05 /* HomeViewModel.swift */,
-				964317452B45609300A95C05 /* TagTextField.swift */,
-				964317462B45609300A95C05 /* Persistence.swift */,
-				964317472B45609300A95C05 /* TagTextView.swift */,
-				964317482B45609400A95C05 /* Home.swift */,
-				964317492B45609400A95C05 /* TopbarView.swift */,
-				9643174A2B45609400A95C05 /* NewDataView.swift */,
-				9643174B2B45609400A95C05 /* HomePage.swift */,
-				9643174C2B45609400A95C05 /* SpeechFunctionView.swift */,
-				9643174D2B45609400A95C05 /* WritingBoard.swift */,
-				9643174E2B45609400A95C05 /* QuickDialogue.swift */,
-				9643174F2B45609400A95C05 /* UsualSentenceView.swift */,
-				964317502B45609400A95C05 /* CustomCorners.swift */,
-				964317512B45609400A95C05 /* UsualSentenceModel.swift */,
-				964317522B45609400A95C05 /* MenuView.swift */,
-			);
-			path = Menu;
-			sourceTree = "<group>";
-		};
-		964317532B45609400A95C05 /* Launch */ = {
-			isa = PBXGroup;
-			children = (
-				964317542B45609400A95C05 /* LogOut.swift */,
-				964317552B45609400A95C05 /* LoginView.swift */,
-				964317562B45609400A95C05 /* Intro01.swift */,
-				964317572B45609400A95C05 /* LaunchView.swift */,
-				964317582B45609400A95C05 /* Intro02.swift */,
-				964317592B45609400A95C05 /* IntroView.swift */,
-				9643175A2B45609400A95C05 /* SignUpView.swift */,
-				9643175B2B45609400A95C05 /* ErrorView.swift */,
-			);
-			path = Launch;
-			sourceTree = "<group>";
-		};
-		9643175C2B45609500A95C05 /* Mine */ = {
-			isa = PBXGroup;
-			children = (
-				9643175D2B45609500A95C05 /* ViewController.swift */,
-				9643175E2B45609500A95C05 /* MineAbout.swift */,
-				9643175F2B45609500A95C05 /* DynamicUploadView.swift */,
-				964317602B45609500A95C05 /* MineView.swift */,
-				964317612B45609500A95C05 /* MIneService.swift */,
-				964317622B45609500A95C05 /* Saving+CoreDataClass.swift */,
-				964317632B45609500A95C05 /* MineSetting.swift */,
-				964317642B45609500A95C05 /* MineContentBelowView.swift */,
-				964317652B45609500A95C05 /* MineDynamic.xcdatamodeld */,
-				964317672B45609500A95C05 /* Analyzer.swift */,
-				964317682B45609500A95C05 /* ImagePicker.swift */,
-				964317692B45609500A95C05 /* MineFeedback.swift */,
-				9643176A2B45609500A95C05 /* Saving+CoreDataProperties.swift */,
-				9643176B2B45609500A95C05 /* MineSubscribe.swift */,
-				9643176C2B45609500A95C05 /* MineNewDynamic.swift */,
-				9643176D2B45609500A95C05 /* MineContent.swift */,
-				9643176E2B45609500A95C05 /* Sound.swift */,
-				9643176F2B45609500A95C05 /* MineOccasionView.swift */,
-				964317702B45609500A95C05 /* SoundGroup.swift */,
-				964317712B45609500A95C05 /* SenderView.swift */,
-				964317722B45609500A95C05 /* MineContactSuccess.swift */,
-				964317732B45609500A95C05 /* SoundType.swift */,
-			);
-			path = Mine;
-			sourceTree = "<group>";
-		};
-		964317742B45609600A95C05 /* Lottie */ = {
-			isa = PBXGroup;
-			children = (
-				964317752B45609600A95C05 /* 15439-blue-ripple.gif */,
-				964317762B45609600A95C05 /* voice-line-wave-animation.gif */,
-				964317772B45609600A95C05 /* 20181-success-blue.gif */,
-				964317782B45609600A95C05 /* Practice01.mp3 */,
-				964317792B45609600A95C05 /* Practice02.mp3 */,
-			);
-			path = Lottie;
-			sourceTree = "<group>";
-		};
-		9643177A2B45609700A95C05 /* Guide */ = {
-			isa = PBXGroup;
-			children = (
-				9643177B2B45609700A95C05 /* HearScope.swift */,
-				9643177C2B45609700A95C05 /* HearLevel.swift */,
-				9643177D2B45609700A95C05 /* GuideView.swift */,
-				9643177E2B45609700A95C05 /* HearResult.swift */,
-				964318052B4561DF00A95C05 /* ExtraButton.swift */,
-			);
-			path = Guide;
-			sourceTree = "<group>";
-		};
-		9643177F2B45609800A95C05 /* Training */ = {
-			isa = PBXGroup;
-			children = (
-				964317802B45609800A95C05 /* FirstBarrier.swift */,
-				964317812B45609800A95C05 /* TestNotice.swift */,
-				964317822B45609800A95C05 /* MyTest.swift */,
-				964317832B45609800A95C05 /* TrainingTopView.swift */,
-				964317842B45609800A95C05 /* OccasionTrainingTopView.swift */,
-				964317852B45609800A95C05 /* MusicPlayer.swift */,
-				964317862B45609800A95C05 /* MyPractice.swift */,
-				964317872B45609800A95C05 /* FirstScore.swift */,
-				964317882B45609800A95C05 /* TestView.swift */,
-				964317892B45609800A95C05 /* TrainingMenuView.swift */,
-				9643178A2B45609800A95C05 /* OccasionTrainingView.swift */,
-				9643178B2B45609800A95C05 /* MyPracticeMenuView.swift */,
-				9643178C2B45609800A95C05 /* OccasionTraining.swift */,
-				9643178D2B45609800A95C05 /* PracticeNavigationBar.swift */,
-				9643178E2B45609800A95C05 /* PracticeHistory.swift */,
-				9643178F2B45609800A95C05 /* TrainingBarrier.swift */,
-				964317902B45609800A95C05 /* FirstBarrierContent.swift */,
-			);
-			path = Training;
-			sourceTree = "<group>";
-		};
-		964318002B45611400A95C05 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				964317022B45607400A95C05 /* MorningGloryApp.swift */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
->>>>>>> origin/feat/workspace
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -336,17 +80,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 964317122B45607500A95C05 /* Build configuration list for PBXNativeTarget "MorningGlory" */;
 			buildPhases = (
-<<<<<<< HEAD
 				964316FB2B45607400A95C05 /* Sources */,
 				964316FC2B45607400A95C05 /* Frameworks */,
 				964316FD2B45607400A95C05 /* Resources */,
-=======
-				B1C2C92FC6FF1DFBDB495A67 /* [CP] Check Pods Manifest.lock */,
-				964316FB2B45607400A95C05 /* Sources */,
-				964316FC2B45607400A95C05 /* Frameworks */,
-				964316FD2B45607400A95C05 /* Resources */,
-				7E6364DB5E84218936EBE5CA /* [CP] Embed Pods Frameworks */,
->>>>>>> origin/feat/workspace
 			);
 			buildRules = (
 			);
@@ -396,187 +132,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				9643170A2B45607500A95C05 /* Preview Assets.xcassets in Resources */,
-<<<<<<< HEAD
 				964317072B45607500A95C05 /* Assets.xcassets in Resources */,
-=======
-				964317EA2B45609900A95C05 /* Practice02.mp3 in Resources */,
-				964317E92B45609900A95C05 /* Practice01.mp3 in Resources */,
-				964317E72B45609900A95C05 /* voice-line-wave-animation.gif in Resources */,
-				964317E62B45609900A95C05 /* 15439-blue-ripple.gif in Resources */,
-				9643179B2B45609800A95C05 /* TokenConfig.xcconfig in Resources */,
-				964318042B4561A800A95C05 /* GoogleService-Info.plist in Resources */,
-				964317072B45607500A95C05 /* Assets.xcassets in Resources */,
-				964317E82B45609900A95C05 /* 20181-success-blue.gif in Resources */,
->>>>>>> origin/feat/workspace
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-<<<<<<< HEAD
-=======
-/* Begin PBXShellScriptBuildPhase section */
-		7E6364DB5E84218936EBE5CA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MorningGlory/Pods-MorningGlory-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MorningGlory/Pods-MorningGlory-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MorningGlory/Pods-MorningGlory-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B1C2C92FC6FF1DFBDB495A67 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MorningGlory-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
->>>>>>> origin/feat/workspace
 /* Begin PBXSourcesBuildPhase section */
 		964316FB2B45607400A95C05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
 				9643170F2B45607500A95C05 /* MorningGlory.xcdatamodeld in Sources */,
 				9643170C2B45607500A95C05 /* Persistence.swift in Sources */,
 				964317052B45607400A95C05 /* ContentView.swift in Sources */,
 				964317032B45607400A95C05 /* MorningGloryApp.swift in Sources */,
-=======
-				964317E12B45609900A95C05 /* MineOccasionView.swift in Sources */,
-				964317E22B45609900A95C05 /* SoundGroup.swift in Sources */,
-				964317A72B45609800A95C05 /* UserData.swift in Sources */,
-				964317972B45609800A95C05 /* OriginalButtonStyle.swift in Sources */,
-				964317EB2B45609900A95C05 /* HearScope.swift in Sources */,
-				964317A92B45609800A95C05 /* PostCellToolbarButton.swift in Sources */,
-				964317C02B45609800A95C05 /* HomePage.swift in Sources */,
-				964317C52B45609800A95C05 /* CustomCorners.swift in Sources */,
-				964317D02B45609900A95C05 /* ViewController.swift in Sources */,
-				964317982B45609800A95C05 /* CommunityView.swift in Sources */,
-				964317A32B45609800A95C05 /* CommentInputView.swift in Sources */,
-				964317EC2B45609900A95C05 /* HearLevel.swift in Sources */,
-				964317FF2B45609900A95C05 /* FirstBarrierContent.swift in Sources */,
-				964317CA2B45609800A95C05 /* Intro01.swift in Sources */,
-				964317A42B45609800A95C05 /* CommunityMenuContent.swift in Sources */,
-				964317942B45609800A95C05 /* CitySearchView.swift in Sources */,
-				964317AE2B45609800A95C05 /* PostCell.swift in Sources */,
-				964317A82B45609800A95C05 /* CommuityMenuView.swift in Sources */,
-				964317FC2B45609900A95C05 /* PracticeNavigationBar.swift in Sources */,
-				964317ED2B45609900A95C05 /* GuideView.swift in Sources */,
-				964317912B45609800A95C05 /* MapView.swift in Sources */,
-				964317D62B45609900A95C05 /* MineSetting.swift in Sources */,
-				964317B12B45609800A95C05 /* CommunityParticipateScrollView.swift in Sources */,
-				964317D52B45609900A95C05 /* Saving+CoreDataClass.swift in Sources */,
-				964317D72B45609900A95C05 /* MineContentBelowView.swift in Sources */,
-				964317D32B45609900A95C05 /* MineView.swift in Sources */,
-				964317F22B45609900A95C05 /* TrainingTopView.swift in Sources */,
-				964317922B45609800A95C05 /* Place.swift in Sources */,
-				964317D42B45609900A95C05 /* MIneService.swift in Sources */,
-				964317E42B45609900A95C05 /* MineContactSuccess.swift in Sources */,
-				964317CD2B45609800A95C05 /* IntroView.swift in Sources */,
-				964317B82B45609800A95C05 /* LongDistanceTranslationView.swift in Sources */,
-				964317F42B45609900A95C05 /* MusicPlayer.swift in Sources */,
-				964317C72B45609800A95C05 /* MenuView.swift in Sources */,
-				964317C92B45609800A95C05 /* LoginView.swift in Sources */,
-				964317FD2B45609900A95C05 /* PracticeHistory.swift in Sources */,
-				964317CE2B45609900A95C05 /* SignUpView.swift in Sources */,
-				964317BB2B45609800A95C05 /* Persistence.swift in Sources */,
-				964317A02B45609800A95C05 /* PostVIPBadge.swift in Sources */,
-				964317CC2B45609800A95C05 /* Intro02.swift in Sources */,
-				964317D92B45609900A95C05 /* Analyzer.swift in Sources */,
-				964317EF2B45609900A95C05 /* FirstBarrier.swift in Sources */,
-				964317DE2B45609900A95C05 /* MineNewDynamic.swift in Sources */,
-				964317C62B45609800A95C05 /* UsualSentenceModel.swift in Sources */,
-				964317AB2B45609800A95C05 /* PostImageCell.swift in Sources */,
-				9643179D2B45609800A95C05 /* Helper.swift in Sources */,
-				964317F52B45609900A95C05 /* MyPractice.swift in Sources */,
-				964317B32B45609800A95C05 /* CommunityImageSearch.swift in Sources */,
-				964317F62B45609900A95C05 /* FirstScore.swift in Sources */,
-				964317AD2B45609800A95C05 /* NetworkAPI.swift in Sources */,
-				964317AC2B45609800A95C05 /* CommentTextView.swift in Sources */,
-				964317B72B45609800A95C05 /* UsualView.swift in Sources */,
-				964317DC2B45609900A95C05 /* Saving+CoreDataProperties.swift in Sources */,
-				964317F02B45609900A95C05 /* TestNotice.swift in Sources */,
-				964317F32B45609900A95C05 /* OccasionTrainingTopView.swift in Sources */,
-				964317FB2B45609900A95C05 /* OccasionTraining.swift in Sources */,
-				964317F72B45609900A95C05 /* TestView.swift in Sources */,
-				964317B92B45609800A95C05 /* HomeViewModel.swift in Sources */,
-				964317C22B45609800A95C05 /* WritingBoard.swift in Sources */,
-				964317A52B45609800A95C05 /* NetworkManager.swift in Sources */,
-				964317032B45607400A95C05 /* MorningGloryApp.swift in Sources */,
-				964317BC2B45609800A95C05 /* TagTextView.swift in Sources */,
-				9643179A2B45609800A95C05 /* PhotoView.swift in Sources */,
-				9643179E2B45609800A95C05 /* CommunityBelowView.swift in Sources */,
-				964317DB2B45609900A95C05 /* MineFeedback.swift in Sources */,
-				964317CB2B45609800A95C05 /* LaunchView.swift in Sources */,
-				964317992B45609800A95C05 /* HScrollViewController.swift in Sources */,
-				964317C12B45609800A95C05 /* SpeechFunctionView.swift in Sources */,
-				964317CF2B45609900A95C05 /* ErrorView.swift in Sources */,
-				964317FE2B45609900A95C05 /* TrainingBarrier.swift in Sources */,
-				964317FA2B45609900A95C05 /* MyPracticeMenuView.swift in Sources */,
-				964317D22B45609900A95C05 /* DynamicUploadView.swift in Sources */,
-				964317A12B45609800A95C05 /* PostListView.swift in Sources */,
-				964317A62B45609800A95C05 /* KeyboardResponder.swift in Sources */,
-				964317B62B45609800A95C05 /* TranslationHistory.swift in Sources */,
-				964317DD2B45609900A95C05 /* MineSubscribe.swift in Sources */,
-				964317B02B45609800A95C05 /* CommunityParticipateView.swift in Sources */,
-				964317F12B45609900A95C05 /* MyTest.swift in Sources */,
-				964317F82B45609900A95C05 /* TrainingMenuView.swift in Sources */,
-				964317BF2B45609800A95C05 /* NewDataView.swift in Sources */,
-				964317B52B45609800A95C05 /* CommunityAttentionView.swift in Sources */,
-				964317AA2B45609800A95C05 /* Post.swift in Sources */,
-				964317B42B45609800A95C05 /* CommunityHotView.swift in Sources */,
-				964317962B45609800A95C05 /* CommunityMenuTopView.swift in Sources */,
-				964317D82B45609900A95C05 /* MineDynamic.xcdatamodeld in Sources */,
-				964317E52B45609900A95C05 /* SoundType.swift in Sources */,
-				964317DF2B45609900A95C05 /* MineContent.swift in Sources */,
-				964317C82B45609800A95C05 /* LogOut.swift in Sources */,
-				964317932B45609800A95C05 /* CommunityCityView.swift in Sources */,
-				9643179C2B45609800A95C05 /* CommunitySearchBar.swift in Sources */,
-				964317A22B45609800A95C05 /* PostDetailView.swift in Sources */,
-				964318062B4561DF00A95C05 /* ExtraButton.swift in Sources */,
-				964317F92B45609900A95C05 /* OccasionTrainingView.swift in Sources */,
-				964317EE2B45609900A95C05 /* HearResult.swift in Sources */,
-				964317E32B45609900A95C05 /* SenderView.swift in Sources */,
-				964317AF2B45609800A95C05 /* CommunityNavigationBar.swift in Sources */,
-				964317C42B45609800A95C05 /* UsualSentenceView.swift in Sources */,
-				964317C32B45609800A95C05 /* QuickDialogue.swift in Sources */,
-				964317BE2B45609800A95C05 /* TopbarView.swift in Sources */,
-				964317D12B45609900A95C05 /* MineAbout.swift in Sources */,
-				964317B22B45609800A95C05 /* ActivityNavigationBar.swift in Sources */,
-				964317952B45609800A95C05 /* MapViewModel.swift in Sources */,
-				964317DA2B45609900A95C05 /* ImagePicker.swift in Sources */,
-				964317BA2B45609800A95C05 /* TagTextField.swift in Sources */,
-				964317E02B45609900A95C05 /* Sound.swift in Sources */,
-				964317BD2B45609800A95C05 /* Home.swift in Sources */,
-				9643179F2B45609800A95C05 /* CommunityScrollView.swift in Sources */,
->>>>>>> origin/feat/workspace
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -699,10 +269,6 @@
 		};
 		964317132B45607500A95C05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
-=======
-			baseConfigurationReference = 1144246A12B0725DD1C7A377 /* Pods-MorningGlory.debug.xcconfig */;
->>>>>>> origin/feat/workspace
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -732,10 +298,6 @@
 		};
 		964317142B45607500A95C05 /* Release */ = {
 			isa = XCBuildConfiguration;
-<<<<<<< HEAD
-=======
-			baseConfigurationReference = 0369EBD381F13F38803D31CA /* Pods-MorningGlory.release.xcconfig */;
->>>>>>> origin/feat/workspace
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -787,7 +349,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-<<<<<<< HEAD
 		9643170D2B45607500A95C05 /* MorningGlory.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
@@ -795,15 +356,6 @@
 			);
 			currentVersion = 9643170E2B45607500A95C05 /* MorningGlory.xcdatamodel */;
 			path = MorningGlory.xcdatamodeld;
-=======
-		964317652B45609500A95C05 /* MineDynamic.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				964317662B45609500A95C05 /* MineDynamic.xcdatamodel */,
-			);
-			currentVersion = 964317662B45609500A95C05 /* MineDynamic.xcdatamodel */;
-			path = MineDynamic.xcdatamodeld;
->>>>>>> origin/feat/workspace
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
